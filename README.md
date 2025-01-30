@@ -1,2 +1,30 @@
-# system-info
-SysInfo is a lightweight, command-line utility that displays essential system information, including CPU usage, memory statistics, and disk space. Built in C, it provides users with a quick and clear overview of their system's health. The package is available for installation via RPM, and includes a debug package for troubleshooting.
+# SysInfo - System Information Display Program
+
+**SysInfo** is a simple command-line program that provides essential system information, such as CPU, memory, and disk usage. It is designed to give users a quick overview of their system's health and resources.
+
+## Features
+
+- Displays detailed CPU usage
+- Shows memory statistics (total, used, free)
+- Reports disk usage and available space
+- Easy-to-use, simple command-line interface
+- Supports debugging information with a separate debug package
+
+## Installation
+
+To install the `sysinfo` program on your Linux system, follow the steps below:
+
+1. **Download the RPM package** from our [GitHub Pages site](https://codeprince001.github.io/sysinfo/sysinfo-1.0-1.x86_64.rpm).
+
+2. **Install the package** using `dnf` or `rpm`:
+
+   ### Using `dnf`:
+   ```bash
+   sudo dnf install https://codeprince001.github.io/sysinfo/sysinfo-1.0-1.x86_64.rpm
+
+  ### Using rpm:
+    sudo rpm -i https://codeprince001.github.io/sysinfo/sysinfo-1.0-1.x86_64.rpm
+3. **Usage**
+    ### Once installed, you can run the program using:
+        sysinfo
+   
